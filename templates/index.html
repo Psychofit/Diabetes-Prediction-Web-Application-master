@@ -103,9 +103,9 @@
       </div>
       <form action="{{ url_for('predict')}}" method="post">
         <section>
-        <center><h1><b>Diabetes Prediction</b></h1></center>
+        <center><h1><b>Предсказание диабета</b></h1></center>
         <p>Это веб-приложение обрабатывается алгоритмом машинного обучения для прогнозирования вероятности заболевания человека диабетом. </p>
-        <p><i>Note that this model is 81% accurate</i></p>
+        <p><i>Точность модели составляет 90%</i></p>
         <div class="info">
         	  <p><b>Пожалуйста, введите значения для следующих параметров:</b></p><br>
             <label>Количество беременностей</label>
@@ -127,7 +127,7 @@
         </div>
         <button type="submit">Предсказать</button>
         <div class = "result">
-            <h2>Result</h2>
+            <h2>Результат</h2>
             <p>{{result}}</p>
         </div>
         </section>
